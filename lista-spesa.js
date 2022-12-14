@@ -7,7 +7,7 @@ console.log('JS OK')
 */
 
 const targetelement = document.getElementById('target');
-const list = ['Mandragola', 'belladonna', 'sali'];
+const list = ['Pane', 'uova', 'sale'];
 
 
 let i=0;
@@ -16,6 +16,6 @@ while (list[i]){
     text += list[i];
     i++;
 
-    console.log(list[i])
+    targetelement.appendChild(`<li>${list[i]}</li>`);
 }
 
