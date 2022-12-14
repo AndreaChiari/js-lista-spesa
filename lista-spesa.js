@@ -16,6 +16,6 @@ while (list[i]){
     text += list[i];
     i++;
 
-    targetelement.appendChild(`<li>${list[i]}</li>`);
 }
 
+targetelement.append(`<li>${list[i]}</li>`);
