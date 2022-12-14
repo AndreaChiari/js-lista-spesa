@@ -13,9 +13,9 @@ const list = ['Pane', 'uova', 'sale'];
 let i=0;
 text= ""
 while (list[i]){
-    text += list[i];
+    text = list[i];
     i++;
-
+    console.log(list)
+    targetelement.innerHTML += (`<li>${text}</li>`);
 }
 
-targetelement.append(`<li>${list[i]}</li>`);
